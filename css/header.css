@@ -1,0 +1,71 @@
+header {
+}
+
+header .wrap {
+
+}
+
+header .wrap nav {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto 1fr;
+  padding-top: 10px;
+  row-gap: 13px;
+}
+header .wrap nav h1 {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+  justify-self: center;
+}
+header .wrap nav h1::before{
+ 
+}
+header .wrap nav h1:hover::before{
+ 
+}
+header .wrap nav h1 a {
+  font-size: 0;
+  display: block;
+  background-image: url(../img/logo2.png);
+  width: 202px;
+  height: 56px;
+}
+header .wrap nav h1 a span {
+  
+}
+header .wrap nav ul.gnb {
+ 
+  grid-column: 1;
+  grid-row: 2;
+}
+header .wrap nav ul.gnb li {
+  
+}
+header .wrap nav ul.gnb li a {
+  display: block;
+  padding: 30px 30px;
+}
+header .wrap nav ul.gnb li a:hover{
+ 
+}
+
+/* 기타메뉴 */
+header .wrap nav ul.enb {
+  grid-column: 2;
+  grid-row: 2;
+  justify-self: right;
+}
+header .wrap nav ul.enb li {
+  
+}
+header .wrap nav ul.enb li a {
+  display: block;
+  padding: 30px 8px;
+  font-size: 12px;
+}
+header .wrap nav ul.enb li a:hover {
+ 
+}
+header .wrap nav ul.enb li:nth-child(1) a::after,header .wrap nav ul.enb li:nth-child(2) a::after{
+
+}
